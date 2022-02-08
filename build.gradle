@@ -4,7 +4,7 @@ import com.vladsch.flexmark.util.ast.Document
 
 buildscript {
     dependencies {
-        classpath 'com.vladsch.flexmark:flexmark:0.62.2' // '0.28.12'
+        classpath 'com.vladsch.flexmark:flexmark:0.64.0' // '0.28.12'
     }
 }
 
