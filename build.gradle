@@ -4,7 +4,7 @@ import com.vladsch.flexmark.util.ast.Document
 
 buildscript {
     dependencies {
-        classpath 'com.vladsch.flexmark:flexmark:0.62.2' // '0.28.12'
+        classpath 'com.vladsch.flexmark:flexmark:0.64.8' // '0.28.12'
     }
 }
 
@@ -46,7 +46,7 @@ dependencies {
 
     implementation 'org.apache.commons:commons-collections4:4.4'
     implementation 'com.miguelfonseca.completely:completely-core:0.9.0'
-    implementation 'com.vladsch.flexmark:flexmark:0.62.2'
+    implementation 'com.vladsch.flexmark:flexmark:0.64.8'
 
     testImplementation(platform('org.junit:junit-bom:5.7.2'))
     testImplementation 'org.mockito:mockito-core:3.10.0'
